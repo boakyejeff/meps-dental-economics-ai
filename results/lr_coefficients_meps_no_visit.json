@@ -1,0 +1,102 @@
+[
+  {
+    "feature": "cat__inscov_Uninsured",
+    "coef": 0.5947752847062739
+  },
+  {
+    "feature": "cat__race_NH White",
+    "coef": -0.360533248583792
+  },
+  {
+    "feature": "cat__hideg_collapsed_Master's+",
+    "coef": -0.3219473833860519
+  },
+  {
+    "feature": "cat__hideg_collapsed_GED",
+    "coef": 0.3036631391677641
+  },
+  {
+    "feature": "cat__inscov_Any private",
+    "coef": -0.30006926310181464
+  },
+  {
+    "feature": "cat__povcat_High income",
+    "coef": -0.28732682736419973
+  },
+  {
+    "feature": "cat__sex_Male",
+    "coef": 0.24237698405703323
+  },
+  {
+    "feature": "cat__dental_ins_No",
+    "coef": 0.2248023586660163
+  },
+  {
+    "feature": "cat__race_NH Black",
+    "coef": 0.20725908059960366
+  },
+  {
+    "feature": "cat__region_South",
+    "coef": 0.19410335955615482
+  },
+  {
+    "feature": "cat__povcat_Poor",
+    "coef": 0.1928468491155606
+  },
+  {
+    "feature": "cat__employed_Employed",
+    "coef": 0.1926202825686198
+  },
+  {
+    "feature": "cat__povcat_Near poor",
+    "coef": 0.17935445780827472
+  },
+  {
+    "feature": "num__age",
+    "coef": -0.1714787310649645
+  },
+  {
+    "feature": "cat__hideg_collapsed_Bachelor's",
+    "coef": -0.1683830103503571
+  },
+  {
+    "feature": "cat__hideg_collapsed_No degree",
+    "coef": 0.16830348619242338
+  },
+  {
+    "feature": "num__povlev",
+    "coef": -0.16028573503771443
+  },
+  {
+    "feature": "cat__race_NH Asian",
+    "coef": 0.15850134351419312
+  },
+  {
+    "feature": "cat__inscov_Public only",
+    "coef": -0.1577829188358416
+  },
+  {
+    "feature": "cat__hideg_collapsed_High school diploma",
+    "coef": 0.1495819428973593
+  },
+  {
+    "feature": "num__educyr",
+    "coef": -0.14928143449719938
+  },
+  {
+    "feature": "cat__race_Hispanic",
+    "coef": 0.11003293079889181
+  },
+  {
+    "feature": "cat__povcat_Low income",
+    "coef": 0.10762423690459694
+  },
+  {
+    "feature": "cat__sex_Female",
+    "coef": -0.10545388128839717
+  },
+  {
+    "feature": "num__health_num",
+    "coef": 0.10068709931617897
+  }
+]

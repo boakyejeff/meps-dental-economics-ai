@@ -1,0 +1,75 @@
+{
+  "source": "MEPS AHRQ public-use files",
+  "files": [
+    {
+      "url": "https://meps.ahrq.gov/data_files/pufs/h209/h209dta.zip",
+      "file": "data/raw/meps_2018_fyc_h209dta.zip",
+      "bytes": 8241279,
+      "sha256": "652de43d7c959103791c549bea864fff9f10fe382eee45698f9bef622edd3c79",
+      "status": 200
+    },
+    {
+      "url": "https://meps.ahrq.gov/data_files/pufs/h206b/h206bdta.zip",
+      "file": "data/raw/meps_2018_dental_visits_h206bdta.zip",
+      "bytes": 1056420,
+      "sha256": "d512c3826834cd5b2a05541756d231eb67c70c908e1bd3b81222dd4304733f20",
+      "status": 200
+    },
+    {
+      "url": "https://meps.ahrq.gov/data_files/pufs/h216/h216dta.zip",
+      "file": "data/raw/meps_2019_fyc_h216dta.zip",
+      "bytes": 7518306,
+      "sha256": "85e5097b4b6a7638d9d00e9f16f58bef085721aa5f3c3872928a1ad2a15a7bc7",
+      "status": 200
+    },
+    {
+      "url": "https://meps.ahrq.gov/data_files/pufs/h213b/h213bdta.zip",
+      "file": "data/raw/meps_2019_dental_visits_h213bdta.zip",
+      "bytes": 695008,
+      "sha256": "1b2b0a152de1e3f91eb105842626c742bb37c4cd1f90c70dce0bbd1a235b6fd0",
+      "status": 200
+    },
+    {
+      "url": "https://meps.ahrq.gov/data_files/pufs/h224/h224dta.zip",
+      "file": "data/raw/meps_2020_fyc_h224dta.zip",
+      "bytes": 7855335,
+      "sha256": "49266b0e359a8d8e35c9d3a7e357b939bf8faa308cab64591ee80a5d1634f96d",
+      "status": 200
+    },
+    {
+      "url": "https://meps.ahrq.gov/data_files/pufs/h220b/h220bdta.zip",
+      "file": "data/raw/meps_2020_dental_visits_h220bdta.zip",
+      "bytes": 596761,
+      "sha256": "61319c4dd601a8a215ba335edc8eed620f87285e03fc4ed0d6ed5c0e06464169",
+      "status": 200
+    },
+    {
+      "url": "https://meps.ahrq.gov/data_files/pufs/h233/h233dta.zip",
+      "file": "data/raw/meps_2021_fyc_h233dta.zip",
+      "bytes": 7809349,
+      "sha256": "3727b7dc9d07de2e550b5d4c57734261668438630993b090d1bb37197a7996ee",
+      "status": 200
+    },
+    {
+      "url": "https://meps.ahrq.gov/data_files/pufs/h229b/h229bdta.zip",
+      "file": "data/raw/meps_2021_dental_visits_h229bdta.zip",
+      "bytes": 663891,
+      "sha256": "c1f82d3491f9ddd9e22bf56fa63691f5dd3b8b1cc91935e3b72230ea0a1822ac",
+      "status": 200
+    },
+    {
+      "url": "https://meps.ahrq.gov/data_files/pufs/h243/h243dta.zip",
+      "file": "data/raw/meps_2022_fyc_h243dta.zip",
+      "bytes": 5789896,
+      "sha256": "7fc534de09eff5fd81facb74d61511d322ebe8bc45af7b75441204fcaf9fb454",
+      "status": 200
+    },
+    {
+      "url": "https://meps.ahrq.gov/data_files/pufs/h239b/h239bdta.zip",
+      "file": "data/raw/meps_2022_dental_visits_h239bdta.zip",
+      "bytes": 557390,
+      "sha256": "178c042aad93805089a2e849e7fde7166f0cbaa82d68d0c5277f84d45f5a7b9e",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "years": {
+    "2018": {
+      "fyc_rows": 30461,
+      "adults_18plus": 22036,
+      "no_visit_prev": 0.586222544926484,
+      "any_dental_exp_prev": 0.40901252495915774,
+      "afford_prev": 0.12434198584135052,
+      "median_oop_spenders": 80.0,
+      "p90_oop_spenders": 1027.0,
+      "p90_oop_all": 350.0,
+      "prev_oop_ge_1000": 0.042385187874387366
+    },
+    "2019": {
+      "fyc_rows": 28512,
+      "adults_18plus": 21080,
+      "no_visit_prev": 0.5749525616698292,
+      "any_dental_exp_prev": 0.41973434535104365,
+      "afford_prev": 0.125,
+      "median_oop_spenders": 75.0,
+      "p90_oop_spenders": 1001.6000000000004,
+      "p90_oop_all": 332.0,
+      "prev_oop_ge_1000": 0.04293168880455408
+    },
+    "2020": {
+      "fyc_rows": 27805,
+      "adults_18plus": 20923,
+      "no_visit_prev": 0.6363332218133155,
+      "any_dental_exp_prev": 0.35869617167710177,
+      "afford_prev": 0.10223199349997611,
+      "median_oop_spenders": 65.0,
+      "p90_oop_spenders": 1013.8000000000011,
+      "p90_oop_all": 240.0,
+      "prev_oop_ge_1000": 0.036992783061702436
+    },
+    "2021": {
+      "fyc_rows": 28336,
+      "adults_18plus": 21768,
+      "no_visit_prev": 0.593531789783168,
+      "any_dental_exp_prev": 0.40118522601984563,
+      "afford_prev": 0.08714626975376699,
+      "median_oop_spenders": 80.0,
+      "p90_oop_spenders": 1257.0,
+      "p90_oop_all": 378.2999999999993,
+      "prev_oop_ge_1000": 0.04897096655641308
+    },
+    "2022": {
+      "fyc_rows": 22431,
+      "adults_18plus": 17387,
+      "no_visit_prev": 0.5665727267498706,
+      "any_dental_exp_prev": 0.4278483924771381,
+      "afford_prev": 0.09869442687065048,
+      "median_oop_spenders": 78.0,
+      "p90_oop_spenders": 1200.0,
+      "p90_oop_all": 400.0,
+      "prev_oop_ge_1000": 0.05049749813078737
+    }
+  },
+  "dnunab_present": {
+    "2018": false,
+    "2019": false,
+    "2020": false,
+    "2021": false,
+    "2022": false
+  },
+  "dndlay_present": {
+    "2018": false,
+    "2019": false,
+    "2020": false,
+    "2021": false,
+    "2022": false
+  },
+  "high_oop_threshold_usd": 1000,
+  "high_oop_prev_pooled": 0.04415954415954416,
+  "no_visit_prev_pooled": 0.5923115685020447,
+  "n_pooled": 103194,
+  "event_check": {
+    "2018": {
+      "event_rows": 29583,
+      "persons_with_events": 9118,
+      "exact_match_total_exp": 0.9570702486839717,
+      "exact_match_oop": 0.9968233799237611,
+      "exact_match_n_visits": 1.0,
+      "corr_event_total_vs_fyc": 0.9999999988947518
+    },
+    "2019": {
+      "event_rows": 28270,
+      "persons_with_events": 8960,
+      "exact_match_total_exp": 0.9594402277039848,
+      "exact_match_oop": 0.9972485768500948,
+      "exact_match_n_visits": 1.0,
+      "corr_event_total_vs_fyc": 0.9999999988697974
+    },
+    "2020": {
+      "event_rows": 21363,
+      "persons_with_events": 7609,
+      "exact_match_total_exp": 0.8501648903120967,
+      "exact_match_oop": 0.9769631505998184,
+      "exact_match_n_visits": 1.0,
+      "corr_event_total_vs_fyc": 0.9999999953301711
+    },
+    "2021": {
+      "event_rows": 26798,
+      "persons_with_events": 8848,
+      "exact_match_total_exp": 0.8638368246968027,
+      "exact_match_oop": 0.9778574053656743,
+      "exact_match_n_visits": 1.0,
+      "corr_event_total_vs_fyc": 0.999999996682357
+    },
+    "2022": {
+      "event_rows": 22529,
+      "persons_with_events": 7536,
+      "exact_match_total_exp": 0.8234888134813366,
+      "exact_match_oop": 0.9725657100132282,
+      "exact_match_n_visits": 1.0,
+      "corr_event_total_vs_fyc": 0.9999999955451951
+    }
+  },
+  "brfss": {
+    "years": {
+      "2020": {
+        "n": 397291,
+        "no_visit_prev": 0.3278352643276591,
+        "states": 53
+      },
+      "2022": {
+        "n": 438111,
+        "no_visit_prev": 0.3325709694575119,
+        "states": 54
+      }
+    },
+    "columns": {
+      "2020": [
+        "DISPCODE",
+        "EDUCA",
+        "EMPLOY1",
+        "HLTHPLN1",
+        "INCOME2",
+        "LASTDEN4",
+        "RMVTETH4",
+        "SEXVAR",
+        "_AGE80",
+        "_AGEG5YR",
+        "_DENVST3",
+        "_LLCPWT",
+        "_RACE",
+        "_STATE"
+      ],
+      "2022": [
+        "DISPCODE",
+        "EDUCA",
+        "EMPLOY1",
+        "INCOME3",
+        "LASTDEN4",
+        "PRIMINSR",
+        "RMVTETH4",
+        "SEXVAR",
+        "_AGE80",
+        "_AGEG5YR",
+        "_DENVST3",
+        "_LLCPWT",
+        "_RACE1",
+        "_STATE"
+      ]
+    },
+    "status": "ok",
+    "denvs_check": {
+      "2020": 1.0,
+      "2022": 1.0
+    }
+  },
+  "nohss": {
+    "rows": 266,
+    "years": [
+      2012,
+      2014,
+      2016,
+      2018,
+      2020
+    ],
+    "states": 54
+  }
+}

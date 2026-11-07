@@ -1,0 +1,102 @@
+[
+  {
+    "feature": "cat__edu_band_Less than HS",
+    "coef": 0.6769937690342493
+  },
+  {
+    "feature": "cat__income_band_<$25k",
+    "coef": 0.5786760215383826
+  },
+  {
+    "feature": "cat__edu_band_College grad",
+    "coef": -0.5635835723249003
+  },
+  {
+    "feature": "cat__state_HI",
+    "coef": -0.5064567171903414
+  },
+  {
+    "feature": "cat__hlthpln_No coverage",
+    "coef": 0.47383607873601363
+  },
+  {
+    "feature": "cat__state_KY",
+    "coef": 0.39260293240020494
+  },
+  {
+    "feature": "cat__state_RI",
+    "coef": -0.372144415915402
+  },
+  {
+    "feature": "cat__state_TX",
+    "coef": 0.3372695691201745
+  },
+  {
+    "feature": "cat__income_band_$75k+",
+    "coef": -0.32407102429239715
+  },
+  {
+    "feature": "cat__state_MS",
+    "coef": 0.29948574786280086
+  },
+  {
+    "feature": "cat__sex_Male",
+    "coef": 0.2699458582913815
+  },
+  {
+    "feature": "cat__state_WI",
+    "coef": -0.23926441693048173
+  },
+  {
+    "feature": "cat__race_Hispanic",
+    "coef": -0.2377622663642795
+  },
+  {
+    "feature": "cat__hlthpln_Insured",
+    "coef": -0.23569038419146665
+  },
+  {
+    "feature": "cat__state_UT",
+    "coef": -0.23380831310473152
+  },
+  {
+    "feature": "cat__state_AR",
+    "coef": 0.22518740650403127
+  },
+  {
+    "feature": "cat__state_CT",
+    "coef": -0.22174468678556758
+  },
+  {
+    "feature": "cat__state_MI",
+    "coef": -0.21461344669675847
+  },
+  {
+    "feature": "cat__state_TN",
+    "coef": 0.21271188814437816
+  },
+  {
+    "feature": "cat__race_Multiracial",
+    "coef": 0.20914794595866323
+  },
+  {
+    "feature": "cat__state_LA",
+    "coef": 0.1980021689074592
+  },
+  {
+    "feature": "cat__edu_band_HS grad",
+    "coef": 0.19483382995082374
+  },
+  {
+    "feature": "cat__state_VA",
+    "coef": -0.19200952774788307
+  },
+  {
+    "feature": "cat__state_AZ",
+    "coef": 0.1912277573248699
+  },
+  {
+    "feature": "cat__age_band_30-49",
+    "coef": 0.18900062881254634
+  }
+]

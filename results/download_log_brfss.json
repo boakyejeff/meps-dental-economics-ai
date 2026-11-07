@@ -1,0 +1,19 @@
+{
+  "source": "CDC BRFSS annual data",
+  "files": [
+    {
+      "url": "https://www.cdc.gov/brfss/annual_data/2020/files/LLCP2020XPT.zip",
+      "file": "data/raw/brfss_2020_LLCPXPT.zip",
+      "bytes": 67497017,
+      "sha256": "132269948a09506392c417c4042c052f088c86334ee3bc34c2776501f240b4b6",
+      "status": "skipped-existing"
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/annual_data/2022/files/LLCP2022XPT.zip",
+      "file": "data/raw/brfss_2022_LLCPXPT.zip",
+      "bytes": 84614105,
+      "sha256": "b6319c949b7289f8020fc903c3c2d38fe7e0b28ad703dcd81547f5cd0c0dcfeb",
+      "status": "skipped-existing"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "feature": "num__age",
+    "importance_auc_drop": 0.10232459439851711
+  },
+  {
+    "feature": "num__povlev",
+    "importance_auc_drop": 0.023767704088734336
+  },
+  {
+    "feature": "num__educyr",
+    "importance_auc_drop": 0.018692438553040036
+  },
+  {
+    "feature": "cat__sex_Male",
+    "importance_auc_drop": 0.013854809039357133
+  },
+  {
+    "feature": "cat__race_NH Asian",
+    "importance_auc_drop": 0.01190791645165945
+  },
+  {
+    "feature": "cat__race_Hispanic",
+    "importance_auc_drop": 0.01099005073488061
+  },
+  {
+    "feature": "cat__sex_Female",
+    "importance_auc_drop": 0.004879468767270745
+  },
+  {
+    "feature": "num__mhealth_num",
+    "importance_auc_drop": 0.0015011541344429613
+  },
+  {
+    "feature": "cat__race_NH White",
+    "importance_auc_drop": 0.0008221550059573923
+  },
+  {
+    "feature": "cat__region_Midwest",
+    "importance_auc_drop": 0.0007513290799494218
+  },
+  {
+    "feature": "cat__race_NH Black",
+    "importance_auc_drop": 0.0006969107043679849
+  },
+  {
+    "feature": "num__health_num",
+    "importance_auc_drop": 0.00019442947255473206
+  },
+  {
+    "feature": "cat__race_NH Other/multiple",
+    "importance_auc_drop": -0.0003619232164923843
+  }
+]

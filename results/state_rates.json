@@ -1,0 +1,69 @@
+{
+  "n_state_years": 320,
+  "nohss_years": [
+    2012,
+    2014,
+    2016,
+    2018,
+    2020
+  ],
+  "brfss_vs_nohss_corr": 0.9554338222102042,
+  "brfss_vs_nohss_n_states": 53,
+  "brfss_vs_nohss_years": [
+    2020
+  ],
+  "mean_abs_diff": 0.017036652812653603,
+  "brfss_latest_year": 2022,
+  "lowest_no_visit_states": [
+    [
+      "CT",
+      0.255
+    ],
+    [
+      "RI",
+      0.26
+    ],
+    [
+      "VT",
+      0.266
+    ],
+    [
+      "MA",
+      0.269
+    ],
+    [
+      "NH",
+      0.271
+    ]
+  ],
+  "highest_no_visit_states": [
+    [
+      "KY",
+      0.404
+    ],
+    [
+      "TX",
+      0.407
+    ],
+    [
+      "WV",
+      0.407
+    ],
+    [
+      "VI",
+      0.41
+    ],
+    [
+      "AR",
+      0.419
+    ]
+  ],
+  "flagged_excluded_from_ranking": [
+    [
+      "MS",
+      2022,
+      0.913,
+      "MS-2022 LASTDEN4 anomaly: no-visit 91.3% vs 42.6% in 2020; see DATA.md"
+    ]
+  ]
+}

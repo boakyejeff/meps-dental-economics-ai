@@ -1,0 +1,362 @@
+{
+  "model_tag": "meps_no_visit",
+  "logistic": {
+    "train_auc": 0.7313707937500352,
+    "validation": {
+      "n": 21768,
+      "prevalence": 0.593531789783168,
+      "auc": 0.7451476895305091,
+      "ece": 0.08168437068967266,
+      "brier": 0.20615081382589268,
+      "at_0.5": {
+        "threshold": 0.5,
+        "accuracy": 0.6794836457184859,
+        "sensitivity": 0.6587461300309597,
+        "specificity": 0.7097649186256781,
+        "tp": 8511,
+        "tn": 6280,
+        "fp": 2568,
+        "fn": 4409
+      }
+    },
+    "test": {
+      "n": 17387,
+      "prevalence": 0.5665727267498706,
+      "auc": 0.7467635537556299,
+      "ece": 0.06235793977544796,
+      "brier": 0.20569149151657545,
+      "at_0.5": {
+        "threshold": 0.5,
+        "accuracy": 0.682578938287226,
+        "sensitivity": 0.6558725002537813,
+        "specificity": 0.7174893842887473,
+        "tp": 6461,
+        "tn": 5407,
+        "fp": 2129,
+        "fn": 3390
+      },
+      "youden_threshold_from_validation": 0.5066065403846931,
+      "at_youden": {
+        "threshold": 0.5066065403846931,
+        "accuracy": 0.6815436820613102,
+        "sensitivity": 0.6463303217947417,
+        "specificity": 0.7275743099787686,
+        "tp": 6367,
+        "tn": 5483,
+        "fp": 2053,
+        "fn": 3484
+      },
+      "fairness_audit": [
+        {
+          "stratum": "poverty_band",
+          "group": "Low income",
+          "n": 2274,
+          "prevalence": 0.6921723834652594,
+          "auc": 0.6997730985659829,
+          "sensitivity_at_0.5": 0.843710292249047,
+          "specificity_at_0.5": 0.38
+        },
+        {
+          "stratum": "poverty_band",
+          "group": "Poor",
+          "n": 2684,
+          "prevalence": 0.7608047690014903,
+          "auc": 0.6565904937130234,
+          "sensitivity_at_0.5": 0.9392752203721841,
+          "specificity_at_0.5": 0.19781931464174454
+        },
+        {
+          "stratum": "poverty_band",
+          "group": "Middle income",
+          "n": 4818,
+          "prevalence": 0.6039850560398505,
+          "auc": 0.7142563055177331,
+          "sensitivity_at_0.5": 0.6945017182130584,
+          "specificity_at_0.5": 0.620020964360587
+        },
+        {
+          "stratum": "poverty_band",
+          "group": "High income",
+          "n": 6839,
+          "prevalence": 0.40356777306623776,
+          "auc": 0.6835788467619585,
+          "sensitivity_at_0.5": 0.2467391304347826,
+          "specificity_at_0.5": 0.9252267712674676
+        },
+        {
+          "stratum": "poverty_band",
+          "group": "Near poor",
+          "n": 772,
+          "prevalence": 0.7318652849740933,
+          "auc": 0.6683168740113719,
+          "sensitivity_at_0.5": 0.9079646017699115,
+          "specificity_at_0.5": 0.2753623188405797
+        },
+        {
+          "stratum": "insurance",
+          "group": "Public only",
+          "n": 5590,
+          "prevalence": 0.6525939177101968,
+          "auc": 0.7007312247050428,
+          "sensitivity_at_0.5": 0.8179824561403509,
+          "specificity_at_0.5": 0.4933058702368692
+        },
+        {
+          "stratum": "insurance",
+          "group": "Any private",
+          "n": 10450,
+          "prevalence": 0.47913875598086125,
+          "auc": 0.7069333137539101,
+          "sensitivity_at_0.5": 0.457359696425005,
+          "specificity_at_0.5": 0.8155428991365056
+        },
+        {
+          "stratum": "insurance",
+          "group": "Uninsured",
+          "n": 1347,
+          "prevalence": 0.8878990348923533,
+          "auc": 0.691825954063213,
+          "sensitivity_at_0.5": 0.9924749163879598,
+          "specificity_at_0.5": 0.06622516556291391
+        },
+        {
+          "stratum": "race_ethnicity",
+          "group": "NH Black",
+          "n": 2487,
+          "prevalence": 0.7076799356654604,
+          "auc": 0.6892170501438039,
+          "sensitivity_at_0.5": 0.8954545454545455,
+          "specificity_at_0.5": 0.3108665749656121
+        },
+        {
+          "stratum": "race_ethnicity",
+          "group": "NH White",
+          "n": 9975,
+          "prevalence": 0.4692731829573935,
+          "auc": 0.7203489304438435,
+          "sensitivity_at_0.5": 0.4372997222815638,
+          "specificity_at_0.5": 0.8475632791839819
+        },
+        {
+          "stratum": "race_ethnicity",
+          "group": "NH Other/multiple",
+          "n": 501,
+          "prevalence": 0.654690618762475,
+          "auc": 0.728729028619766,
+          "sensitivity_at_0.5": 0.7987804878048781,
+          "specificity_at_0.5": 0.5375722543352601
+        },
+        {
+          "stratum": "race_ethnicity",
+          "group": "Hispanic",
+          "n": 3444,
+          "prevalence": 0.7369337979094077,
+          "auc": 0.709177891197289,
+          "sensitivity_at_0.5": 0.9022852639873916,
+          "specificity_at_0.5": 0.32229580573951433
+        },
+        {
+          "stratum": "race_ethnicity",
+          "group": "NH Asian",
+          "n": 980,
+          "prevalence": 0.5551020408163265,
+          "auc": 0.6604830005396654,
+          "sensitivity_at_0.5": 0.5257352941176471,
+          "specificity_at_0.5": 0.7087155963302753
+        }
+      ]
+    }
+  },
+  "hgb": {
+    "train_auc": 0.7695682216722838,
+    "validation": {
+      "n": 21768,
+      "prevalence": 0.593531789783168,
+      "auc": 0.7560675498547187,
+      "ece": 0.07732716310397844,
+      "brier": 0.20117162918729056,
+      "at_0.5": {
+        "threshold": 0.5,
+        "accuracy": 0.690784638000735,
+        "sensitivity": 0.6818885448916409,
+        "specificity": 0.7037748643761302,
+        "tp": 8810,
+        "tn": 6227,
+        "fp": 2621,
+        "fn": 4110
+      }
+    },
+    "test": {
+      "n": 17387,
+      "prevalence": 0.5665727267498706,
+      "auc": 0.7534241824738497,
+      "ece": 0.058454733259048076,
+      "brier": 0.2023936130180378,
+      "at_0.5": {
+        "threshold": 0.5,
+        "accuracy": 0.6881003048254443,
+        "sensitivity": 0.6708963556999289,
+        "specificity": 0.7105891719745223,
+        "tp": 6609,
+        "tn": 5355,
+        "fp": 2181,
+        "fn": 3242
+      },
+      "youden_threshold_from_validation": 0.49539019194780715,
+      "at_youden": {
+        "threshold": 0.49539019194780715,
+        "accuracy": 0.6883303617645368,
+        "sensitivity": 0.6757689574662471,
+        "specificity": 0.7047505307855626,
+        "tp": 6657,
+        "tn": 5311,
+        "fp": 2225,
+        "fn": 3194
+      },
+      "fairness_audit": [
+        {
+          "stratum": "poverty_band",
+          "group": "Low income",
+          "n": 2274,
+          "prevalence": 0.6921723834652594,
+          "auc": 0.7090964784897441,
+          "sensitivity_at_0.5": 0.8621346886912326,
+          "specificity_at_0.5": 0.37142857142857144
+        },
+        {
+          "stratum": "poverty_band",
+          "group": "Poor",
+          "n": 2684,
+          "prevalence": 0.7608047690014903,
+          "auc": 0.6885082275333265,
+          "sensitivity_at_0.5": 0.9353574926542605,
+          "specificity_at_0.5": 0.22118380062305296
+        },
+        {
+          "stratum": "poverty_band",
+          "group": "Middle income",
+          "n": 4818,
+          "prevalence": 0.6039850560398505,
+          "auc": 0.7194756028154199,
+          "sensitivity_at_0.5": 0.6989690721649484,
+          "specificity_at_0.5": 0.6215932914046122
+        },
+        {
+          "stratum": "poverty_band",
+          "group": "High income",
+          "n": 6839,
+          "prevalence": 0.40356777306623776,
+          "auc": 0.692589429421107,
+          "sensitivity_at_0.5": 0.286231884057971,
+          "specificity_at_0.5": 0.9124785486638882
+        },
+        {
+          "stratum": "poverty_band",
+          "group": "Near poor",
+          "n": 772,
+          "prevalence": 0.7318652849740933,
+          "auc": 0.6945577358813217,
+          "sensitivity_at_0.5": 0.9168141592920354,
+          "specificity_at_0.5": 0.21739130434782608
+        },
+        {
+          "stratum": "insurance",
+          "group": "Public only",
+          "n": 5590,
+          "prevalence": 0.6525939177101968,
+          "auc": 0.7166745289943448,
+          "sensitivity_at_0.5": 0.8396381578947368,
+          "specificity_at_0.5": 0.48094747682801237
+        },
+        {
+          "stratum": "insurance",
+          "group": "Any private",
+          "n": 10450,
+          "prevalence": 0.47913875598086125,
+          "auc": 0.7125716629458057,
+          "sensitivity_at_0.5": 0.4737367685240663,
+          "specificity_at_0.5": 0.8083777328679037
+        },
+        {
+          "stratum": "insurance",
+          "group": "Uninsured",
+          "n": 1347,
+          "prevalence": 0.8878990348923533,
+          "auc": 0.6937279895457263,
+          "sensitivity_at_0.5": 0.9816053511705686,
+          "specificity_at_0.5": 0.1390728476821192
+        },
+        {
+          "stratum": "race_ethnicity",
+          "group": "NH Black",
+          "n": 2487,
+          "prevalence": 0.7076799356654604,
+          "auc": 0.6966893835188197,
+          "sensitivity_at_0.5": 0.8772727272727273,
+          "specificity_at_0.5": 0.3204951856946355
+        },
+        {
+          "stratum": "race_ethnicity",
+          "group": "NH White",
+          "n": 9975,
+          "prevalence": 0.4692731829573935,
+          "auc": 0.7292054174585636,
+          "sensitivity_at_0.5": 0.4804528946806238,
+          "specificity_at_0.5": 0.8347185493010956
+        },
+        {
+          "stratum": "race_ethnicity",
+          "group": "NH Other/multiple",
+          "n": 501,
+          "prevalence": 0.654690618762475,
+          "auc": 0.7236447906386579,
+          "sensitivity_at_0.5": 0.7957317073170732,
+          "specificity_at_0.5": 0.5260115606936416
+        },
+        {
+          "stratum": "race_ethnicity",
+          "group": "Hispanic",
+          "n": 3444,
+          "prevalence": 0.7369337979094077,
+          "auc": 0.7204702647788929,
+          "sensitivity_at_0.5": 0.8916469661150512,
+          "specificity_at_0.5": 0.3465783664459161
+        },
+        {
+          "stratum": "race_ethnicity",
+          "group": "NH Asian",
+          "n": 980,
+          "prevalence": 0.5551020408163265,
+          "auc": 0.656330106583918,
+          "sensitivity_at_0.5": 0.5367647058823529,
+          "specificity_at_0.5": 0.6834862385321101
+        }
+      ]
+    }
+  },
+  "design": {
+    "train_years": "2018-2020",
+    "validation_year": 2021,
+    "test_year": 2022,
+    "n_train": 64039,
+    "n_validation": 21768,
+    "n_test": 17387,
+    "features_numeric": [
+      "age",
+      "educyr",
+      "povlev",
+      "health_num",
+      "mhealth_num"
+    ],
+    "features_categorical": [
+      "sex",
+      "race",
+      "region",
+      "inscov",
+      "povcat",
+      "dental_ins",
+      "hideg_collapsed",
+      "employed"
+    ]
+  }
+}

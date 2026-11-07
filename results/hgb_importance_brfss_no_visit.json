@@ -1,0 +1,34 @@
+[
+  {
+    "feature": "cat__age_band_65+",
+    "importance_auc_drop": 0.05944558333527383
+  },
+  {
+    "feature": "cat__sex_Female",
+    "importance_auc_drop": 0.05737320227477364
+  },
+  {
+    "feature": "cat__age_band_18-29",
+    "importance_auc_drop": 0.0138884643821899
+  },
+  {
+    "feature": "cat__race_AI/AN",
+    "importance_auc_drop": 0.011517321571344183
+  },
+  {
+    "feature": "cat__age_band_30-49",
+    "importance_auc_drop": 0.00937808070575811
+  },
+  {
+    "feature": "cat__age_band_50-64",
+    "importance_auc_drop": 0.008629584429773426
+  },
+  {
+    "feature": "cat__race_Hispanic",
+    "importance_auc_drop": 0.006095885875133804
+  },
+  {
+    "feature": "cat__sex_Male",
+    "importance_auc_drop": 0.001838295937931722
+  }
+]

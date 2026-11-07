@@ -1,0 +1,68 @@
+meps_no_visit logistic: val AUC 0.745, test AUC 0.747, test ECE 0.062
+meps_no_visit hgb: val AUC 0.756, test AUC 0.753, test ECE 0.058
+meps_high_oop logistic: val AUC 0.712, test AUC 0.697, test ECE 0.393
+meps_high_oop hgb: val AUC 0.718, test AUC 0.711, test ECE 0.370
+brfss_no_visit logistic: val AUC 0.693, test AUC 0.692, test ECE 0.124
+brfss_no_visit hgb: val AUC 0.704, test AUC 0.699, test ECE 0.121
+state rates: {
+  "n_state_years": 320,
+  "nohss_years": [
+    2012,
+    2014,
+    2016,
+    2018,
+    2020
+  ],
+  "brfss_vs_nohss_corr": 0.9554338222102045,
+  "brfss_vs_nohss_n_states": 53,
+  "brfss_vs_nohss_years": [
+    2020
+  ],
+  "mean_abs_diff": 64.74277640862303,
+  "brfss_latest_year": 2022,
+  "lowest_no_visit_states": [
+    [
+      "CT",
+      0.255
+    ],
+    [
+      "RI",
+      0.26
+    ],
+    [
+      "VT",
+      0.266
+    ],
+    [
+      "MA",
+      0.269
+    ],
+    [
+      "NH",
+      0.271
+    ]
+  ],
+  "highest_no_visit_states": [
+    [
+      "TX",
+      0.407
+    ],
+    [
+      "WV",
+      0.407
+    ],
+    [
+      "VI",
+      0.41
+    ],
+    [
+      "AR",
+      0.419
+    ],
+    [
+      "MS",
+      0.913
+    ]
+  ]
+}
+done.

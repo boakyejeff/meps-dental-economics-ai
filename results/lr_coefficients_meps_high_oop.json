@@ -1,0 +1,102 @@
+[
+  {
+    "feature": "num__age",
+    "coef": 0.5023516406375759
+  },
+  {
+    "feature": "cat__povcat_Poor",
+    "coef": -0.4082761580500675
+  },
+  {
+    "feature": "cat__race_NH White",
+    "coef": 0.3809043514044412
+  },
+  {
+    "feature": "cat__race_NH Black",
+    "coef": -0.35266607335232586
+  },
+  {
+    "feature": "cat__inscov_Public only",
+    "coef": -0.2840090820690589
+  },
+  {
+    "feature": "cat__povcat_High income",
+    "coef": 0.2835149141913267
+  },
+  {
+    "feature": "num__educyr",
+    "coef": 0.2499062610772764
+  },
+  {
+    "feature": "cat__sex_Male",
+    "coef": -0.23672251652994322
+  },
+  {
+    "feature": "cat__hideg_collapsed_GED",
+    "coef": -0.22946778480332633
+  },
+  {
+    "feature": "cat__employed_Employed",
+    "coef": -0.20872767525306912
+  },
+  {
+    "feature": "cat__dental_ins_Yes",
+    "coef": -0.20078890927309845
+  },
+  {
+    "feature": "cat__race_NH Other/multiple",
+    "coef": -0.19232120567752098
+  },
+  {
+    "feature": "cat__region_Midwest",
+    "coef": -0.18351395649889235
+  },
+  {
+    "feature": "cat__inscov_Any private",
+    "coef": 0.18307804630561134
+  },
+  {
+    "feature": "cat__region_West",
+    "coef": 0.17635486223863395
+  },
+  {
+    "feature": "cat__povcat_Middle income",
+    "coef": 0.15472200942881756
+  },
+  {
+    "feature": "cat__hideg_collapsed_No degree",
+    "coef": 0.14836114006497936
+  },
+  {
+    "feature": "cat__povcat_Near poor",
+    "coef": -0.13960656784581227
+  },
+  {
+    "feature": "cat__region_South",
+    "coef": -0.11621758361710079
+  },
+  {
+    "feature": "cat__inscov_Uninsured",
+    "coef": -0.10540947559124085
+  },
+  {
+    "feature": "cat__povcat_Low income",
+    "coef": -0.09669470907897616
+  },
+  {
+    "feature": "cat__hideg_collapsed_Master's+",
+    "coef": -0.08387424814736122
+  },
+  {
+    "feature": "cat__region_Northeast",
+    "coef": -0.08296383347731974
+  },
+  {
+    "feature": "num__povlev",
+    "coef": 0.05820315265816822
+  },
+  {
+    "feature": "cat__race_Hispanic",
+    "coef": -0.055217648087129825
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "source": "CDC NOHSS via data.cdc.gov Socrata API jz6n-v26y",
+  "indicator": "Adults aged 18+ who have visited a dentist or dental clinic in the past year",
+  "rows": 12682,
+  "overall_yes_rows": 271,
+  "years": [
+    "2012",
+    "2014",
+    "2016",
+    "2018",
+    "2020"
+  ],
+  "file": "data/raw/nohss_adult_dental_visit.csv",
+  "accessed": "2026-11-07"
+}
